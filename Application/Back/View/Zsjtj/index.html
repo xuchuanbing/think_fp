@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>发票申请平台</title>
+		<link rel="stylesheet" href="__PUBLIC__/zsj_fp/css/index.css" />
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<style type="text/css">
+			.hwh-page-info a{color: #CCC;}
+			.hwh-page-info a em{font-style: normal;margin: 0 2px;}
+		</style>
+    </head>
+	<body>
+		<div class="container1">
+			<!--top-->
+			<div class="top">发票查看后台管理</div>
+			<!--bottom-->
+			<div class="bottom">
+				<div class="bot_in pad">
+					<include file="Public:lefter" />
+					<div class="box_inr l">
+						<div class="ly">
+							<span style="padding-left: 1px;"><input class="but" type="button" value="添加业务" style="width:89px; height:26px;"></span>
+							<!--form-->
+							<form class="form11">
+								<table>
+									<tr>
+										<th style="width:684px;padding-left: 186px;">公司</th>
+										<th style="width:692px;padding-left: 193px;">内容</th>
+										<th style="width: 127px;padding-left: 35px;">查看详情</th>
+									</tr>
+									<volist name="lis" id="vo">
+										<tr>
+											<td style="text-align:center;">中国食用菌商务网</td>
+											<td style="text-align:center;">{$vo.yewu}</td>
+											<td><a href="javascript:void(0)" id="{$vo.id}" class="del">删除</a></td>
+										</tr>
+									</volist>				
+								</table>
+							</form>
+							<!--form-->
+						</div>
+						<center>
+							<div class="result page">{$page_show}</div>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+		var SECP = {
+			'tj_url':"index.php?m=Back&c=Zsjtj&a=add",
+			'del_url':"index.php?m=Back&c=Zsjtj&a=del"
+		}
+		</script>
+		<script src="__PUBLIC__/zsj_fp/js/jquery.js"></script>
+		<script src="__PUBLIC__/layer/layer.js"></script>
+		<script src="__PUBLIC__/chajian/delog.js"></script>
+		<script src="__PUBLIC__/zsj_fp/js/back_zsjtj.js"></script>
+
+	</body>
+</html>

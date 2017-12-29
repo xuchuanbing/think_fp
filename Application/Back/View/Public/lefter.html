@@ -1,0 +1,12 @@
+<div class="box_inl l">
+	<ul>
+	<?php isset($contr)?$contr:$contr="index"; ?>
+		
+		<li <if condition="$contr eq 'index'">class='active'<else/>''</if> ><a href="{:U('index/index')}">开票记录</a></li>
+		<li <if condition="$contr eq 'zsjck'">class='active'<else/>''</if> ><a href="{:U('zsjck/index')}">查看申请</a></li>
+		<li <if condition="$contr eq 'zsjtj'">class='active'<else/>''</if> ><a href="{:U('zsjtj/index')}">添加业务</a></li>
+		<li <if condition="$contr eq 'zsjly'">class='active'<else/>''</if> ><a href="{:U('zsjly/index')}">查看留言</a></li>
+		<li <if condition="$contr eq 'user'">class='active'<else/>''</if> ><a href="{:U('user/index')}">用户管理</a></li>
+		<li <if condition="$contr eq 'login'">class='active'<else/>''</if> ><a href="{:U('login/loginout')}">退出系统</a></li>
+	</ul>
+</div>

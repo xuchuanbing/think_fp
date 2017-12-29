@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>发票申请平台</title>
+		<link rel="stylesheet" href="__PUBLIC__/zsj_fp/css/index.css" />
+		<style type="text/css">
+			.form1 .txt {
+		    	width: 424px;
+			}
+			.form1 select option{
+				font-size: 18px;
+				font-family: "微软雅黑"!important;
+				color: #555;
+				padding: 10px;
+			}
+			#time{
+				height: 43px;width:427px;
+			    border: 1px solid #e5e5e5;
+			    padding-left: 10px;
+			    border-radius: 5px;
+			    -webkit-border-radius: 5px;
+			    -moz-border-radius: 5px;
+			    outline: none;
+			    border-top: 1px solid #a6a6a6;
+			    border-left: 1px solid #a6a6a6;
+			    float:left;
+			}
+
+		</style>
+    </head>
+	<body>
+		<div class="container">
+			<!--top-->
+			<div class="top">发票申请平台</div>
+			<!--bottom-->
+			<div class="bottom">
+				<div class="bot_in pad">
+					<include file="Public:lefter" />
+					<div class="box_inr l">
+						<form  class="form1 form2" onSubmit="return doSubmit()">
+							<input type="hidden" name="user_id" value="{$info.user_id}">
+							<p><span>开票单位：</span><input type="text" name="company1" class="txt" id="office"/></p>
+							<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;税号：</span><input type="text" name="shao" class="txt" id="duty"/></p>
+
+							<p><span>汇款方式：</span>
+							<select class="txt txt0" style="width: 436px; margin-left:-4px;font-size: 18px;color: #555;" id="demo" name="way">
+								<option value="">----汇款方式----</option>
+								<option value="3">支付宝</option>
+								<option value="1">微信</option>
+								<option value="2" class="yh0" class="yhk" >银行卡</option>
+							</select>
+							<div class="yh" style="display:none;" id="item">
+								<p><span>&nbsp;&nbsp;&nbsp;&nbsp;开户行：</span><input type="text" name="bank" class="txt" id="way"/></p>
+								<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;账号：</span><input type="text" name="bank_num" class="txt" id="way"/></p>
+							</div>
+							</p>
+
+							<p><span>汇款金额：</span><input type="text" name="mony" class="txt" id="money"/></p>
+
+							<p><span>业务类型 :</span>
+							<select class="txt txt1" style="width: 436px; margin-left:3px;font-size: 18px;color: #555;" name="kpob">
+								<option value="">----业务类型----</option>
+								<volist name="lis" id="vo">
+									<option value="{$vo.id}">{$vo.yewu}</option>
+								</volist>
+							</select>
+							</p>
+
+							<p class="p11 clearFix"><label for="time" style="float:left;"><span style="line-height:43px;">汇款时间：</span></label>
+							<input type="text" id="time" name="huktime" value="年/月/日" onClick="return Calendar('time');" class="text_time" />
+							</p>
+							<div class="clearFix"></div>	
+							<input type="submit"  value="提交" class="sub2"/>	
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="__PUBLIC__/zsj_fp/js/jquery.js"></script>
+		<script src="__PUBLIC__/layer/layer.js"></script>
+		<script src="__PUBLIC__/chajian/delog.js"></script>
+		<script src="__PUBLIC__/zsj_fp/js/home_sqkp.js"></script>
+        		<script src="__PUBLIC__/zsj_fp/js/showtime.js"></script>
+<script type="text/javascript">
+	$(".txt0").bind("change",function (){
+		   var val = this.value;
+		   if(val==2){
+		   	$('#item').css('display','block');
+		   }else{
+		   	$('#item').css('display','none');
+		   }
+	});
+</script>
+<script>
+
+</script>
+	</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>发票申请平台</title>
+		<link rel="stylesheet" href="__PUBLIC__/zsj_fp/css/index.css" />
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<style type="text/css">
+			.hwh-page-info a{color: #CCC;}
+			.hwh-page-info a em{font-style: normal;margin: 0 2px;}
+			
+		</style>
+    </head>
+	<body>
+		<div class="container1">
+			<!--top-->
+			<div class="top">发票查看后台管理</div>
+			<!--bottom-->
+			<div class="bottom">
+				<div class="bot_in pad">
+					<include file="Public:lefter" />
+					<div class="box_inr l">
+						<div class="ly">
+							<!--form-->
+							<form class="form12">
+								<table>
+									<tr>
+										<th>开票单位</th>
+										<th>金额</th>
+										<th>地址</th>
+										<th>电话</th>
+										<th>是否开票</th>
+									</tr>
+									<volist name="lis" id="vo">
+										<tr>
+											<td>{$vo.company1}</td>
+											<td>{$vo.mony}元</td>
+											<td>{$vo['user_id'],$vo['info_id']|address}</td>
+											<td>{$vo['user_id'],$vo['info_id']|phone}</td>
+											<td hidden>{$vo.shao}</td>
+											<td hidden>{$vo.kpob|ywtype}</td>
+											<td hidden>{$vo.huktime}</td>
+											<td hidden>{$vo.way|ways}</td>
+											<td hidden>{$vo.status|sta}</td>
+											<td hidden>{$vo.bank}</td>
+											<td hidden>{$vo.bank_num}</td>
+											<td hidden>{$vo['user_id'],$vo['info_id']|user}</td>
+											<td class="zsj_ck">
+												<a style="float:left;width:67px;" class="ck" href="javascript:void(0)">查看</a>
+												<a style="float:right;width:67px;" class="kp" id="{$vo.id}" href="javascript:void(0)">开票</a>
+											</td>
+										</tr>
+									</volist>				
+								</table>
+							</form>
+							<!--form-->
+						</div>
+						<center>
+							<div class="result page">{$page_show}</div>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="__PUBLIC__/zsj_fp/js/jquery.js"></script>
+		<script src="__PUBLIC__/layer/layer.js"></script>
+		<script src="__PUBLIC__/chajian/delog.js"></script>
+		<script src="__PUBLIC__/zsj_fp/js/back_zsjck.js"></script>
+	</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>发票申请平台</title>
+		<link rel="stylesheet" href="__PUBLIC__/zsj_fp/css/index.css" />
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<style type="text/css">
+			.hwh-page-info a{color: #CCC;}
+			.hwh-page-info a em{font-style: normal;margin: 0 2px;}
+		</style>
+    </head>
+
+	<body>
+		<div class="container1">
+			<!--top-->
+			<div class="top">发票查看后台管理</div>
+			<!--bottom-->
+			<div class="bottom">
+				<div class="bot_in pad">
+					<include file="Public:lefter" />
+					<div class="box_inr l">
+						<div class="ly">
+							<!--form-->
+							<form class="form12">
+								<table>
+									<tr>
+										<th>用户名</th>
+										<th style="width:189px">电话</th>
+										<th>注册时间</th>
+										<th>用户权限</th>
+										<th>操作</th>
+									</tr>
+									<volist name="lis" id="vo">
+										<tr>
+											<td>{$vo.username}</td>
+											<td>{$vo.phone}</td>
+											<td>{$vo.addtime}</td>
+											<td>{$vo.status|power}</td>
+											<td class="zsj_ck">
+												<a style="float: left;width: 79px;height: 38px;" id="{$vo.id}" class="edits" href="javascript:void(0)">修改</a>
+												<a style="float: right;width: 75px;height: 38px;" id="{$vo.id}" class="dels" href="javascript:void(0)">删除</a>
+											</td>
+										</tr>
+									</volist>
+									
+								</table>
+
+							</form>
+							<!--form-->
+
+						</div>
+						<center>
+								<div class="result page">{$page_show}</div>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="__PUBLIC__/zsj_fp/js/jquery.js"></script>
+		<script src="__PUBLIC__/zsj_fp/js/index.js"></script>
+		<script src="__PUBLIC__/layer/layer.js"></script>
+		<script src="__PUBLIC__/chajian/delog.js"></script>
+		<script src="__PUBLIC__/zsj_fp/js/zsj_user.js"></script>
+	</body>
+</html>

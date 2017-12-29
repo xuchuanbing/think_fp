@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>发票申请平台</title>
+		<link rel="stylesheet" href="__PUBLIC__/zsj_fp/css/index.css" />
+    </head>
+	<body>
+		<div class="wrap">
+			<!--box-->
+			<div class="pad">
+				<div class="box" style="margin-top:52px;">
+					<h1>发票申请平台</h1>
+					<div class="bd bd8" style="height:480px;">
+						<form class="form" onSubmit="return doSubmit()">
+							<p style="margin-left: 28px;">
+								<span>用户名：</span>
+								<input type="text" name="username" placeholder="请输入用户名" class="sy_ip" id="yhm"/>
+							</p>
+							<p>
+								<span>输入手机号：</span>
+								<input type="text" name="phone" maxlength="11" placeholder="请输入手机号" class="sy_ip" id="yhm"/>
+							</p>
+
+							<div class="form-item form-item-phonecode">
+								<label>手机验证码 :&nbsp;&nbsp;</label>
+								<input type="text" name="mobileCode" maxlength="4" id="phoneCode" class="field phonecode" placeholder="请输入手机验证码" autocomplete="off" style="padding-left:8px;width:298px;">
+								<button id="getPhoneCode" class="btn-phonecode" type="button">获取验证码</button>
+								<i class="i-status"></i>
+							</div>
+							<p><span>输入新密码：&nbsp;</span><input type="password" name="pass" placeholder="请输入密码" class="sy_ip" id="in_pd"/></p>
+							<p><span>重复新密码：&nbsp;</span><input type="password" name="pass1" class="sy_ip" placeholder="请再次输入密码" id="in_pd"/></p>
+							<input name="Submit" type="submit" value="提交" id="sub9">			  
+						</form>
+					</div>
+				</div>
+			</div>
+			<!--box-->
+		</div>
+
+		<script src="__PUBLIC__/zsj_fp/js/jquery.js"></script>
+		<script src="__PUBLIC__/layer/layer.js"></script>
+		<script src="__PUBLIC__/chajian/delog.js"></script>
+		<script src="__PUBLIC__/zsj_fp/js/home_register.js"></script>
+
+</body>
+</html>

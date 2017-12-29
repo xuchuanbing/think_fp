@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>发票申请平台</title>
+		<link rel="stylesheet" href="__PUBLIC__/zsj_fp/css/index.css" />
+    </head>
+	<body>
+		<div class="container">
+			<!--top-->
+			<div class="top">
+				发票申请平台
+			</div>
+			<!--bottom-->
+			<div class="bottom">
+				<div class="bot_in pad">
+					<include file="Public:lefter" />
+					<div class="box_inr l">
+						<form  class="form1" onSubmit="return doSubmit()">
+							<p><span>权限管理：</span><br>
+							<input type="hidden" name="id" value="{$data.id}">
+							<div>
+							前台：<input type="radio" name="yewu" value="0" <if condition="$message eq '0'">checked<else/>""</if> />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							后台：<input type="radio" name="yewu" value="1" <if condition="$message eq '1'">checked<else/>""</if> /></div></p>
+							<input type="submit" class="sub1" value="提交"/>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+		</script>
+		<script src="__PUBLIC__/zsj_fp/js/jquery.js"></script>
+		<script src="__PUBLIC__/layer/layer.js"></script>
+		<script src="__PUBLIC__/chajian/delog.js"></script>
+		<script src="__PUBLIC__/zsj_fp/js/user_p.js"></script>
+	</body>
+</html>

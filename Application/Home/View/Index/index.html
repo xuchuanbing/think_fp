@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>发票申请平台</title>
+		<link rel="stylesheet" href="__PUBLIC__/zsj_fp/css/index.css" />
+    </head>
+	<body>
+		<div class="container">
+			<!--top-->
+			<div class="top">
+				发票申请平台
+			</div>
+			<!--bottom-->
+			<div class="bottom">
+				<div class="bot_in pad">
+					<include file="Public:lefter" />
+					<div class="box_inr l">
+
+						<form  class="form1" onsubmit="return doSubmit()">
+
+							<input type="hidden" name="user_id" value="{$arr['id']}">
+
+							<p><span>开票单位：</span><input type="text" name="company" class="txt" value="{$arrss['company']}" id="company"/></p>
+							<p><span>收件地址：</span><input type="text" class="txt" name="address" value="{$arrss['address']}" id="address"/></p>
+							<p><span>&nbsp;&nbsp;&nbsp;收件人：</span><input type="text" class="txt" value="{$arrss['user']}" name="user" id="addressee"/></p>
+							<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手机：</span><input type="text" class="txt" name="phone" value="{$arr['phone']}" id="wap"/></p>
+							<input type="submit" class="sub1" value="提交"/>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="__PUBLIC__/zsj_fp/js/jquery.js"></script>
+		<script src="__PUBLIC__/layer/layer.js"></script>
+		<script src="__PUBLIC__/chajian/delog.js"></script>
+		<script src="__PUBLIC__/zsj_fp/js/zsj_message.js"></script>
+	</body>
+</html>

@@ -1,0 +1,1711 @@
+[ 2017-12-28T14:02:28+08:00 ] 218.98.33.30 /index.php?m=back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/IndexController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `zsjkp` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zsjkp` WHERE `status` = '1' ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zsjkp` WHERE `status` = '1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: page_show /data/web/zsj_fp/Application/Common/Common/function.php 第 91 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2017-12-28T14:02:31+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [8] Undefined index: status /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `adminuser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2017-12-28T14:02:35+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=del&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /data/web/zsj_fp/Application/Back/Controller/UserController.class.php on line 101 and defined /data/web/zsj_fp/Application/Common/Common/function.php 第 9 行.
+NOTIC: [8] Undefined variable: url /data/web/zsj_fp/Application/Common/Common/function.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000108s ]
+
+[ 2017-12-28T14:03:33+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [8] Undefined index: status /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+
+[ 2017-12-28T14:04:38+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [8] Undefined index: status /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 13 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 13 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 13 行.
+
+[ 2017-12-28T14:04:40+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [8] Undefined index: status /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 13 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, integer given /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 13 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 13 行.
+
+[ 2017-12-28T14:05:53+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [8] Undefined index: status /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+
+[ 2017-12-28T14:06:53+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `status` = 0 ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: page_show /data/web/zsj_fp/Application/Common/Common/function.php 第 91 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T14:06:53+08:00 ] 101.226.33.203 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-12-28T14:06:53+08:00 ] 101.226.33.203 /index.php?m=Back&c=Login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-12-28T14:06:55+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `status` = 0 ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: page_show /data/web/zsj_fp/Application/Common/Common/function.php 第 91 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-12-28T14:10:23+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `status` <> 2 ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` WHERE `status` <> 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-12-28T14:10:37+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `status` <> 2 ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` WHERE `status` <> 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-12-28T14:13:34+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `status` <> 2 ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` WHERE `status` <> 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-12-28T14:18:43+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-12-28T14:19:18+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-12-28T14:19:22+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=del&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /data/web/zsj_fp/Application/Back/Controller/UserController.class.php on line 100 and defined /data/web/zsj_fp/Application/Common/Common/function.php 第 9 行.
+NOTIC: [8] Undefined variable: url /data/web/zsj_fp/Application/Common/Common/function.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-12-28T14:19:29+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=del&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 3 for show(), called in /data/web/zsj_fp/Application/Back/Controller/UserController.class.php on line 100 and defined /data/web/zsj_fp/Application/Common/Common/function.php 第 9 行.
+NOTIC: [8] Undefined variable: url /data/web/zsj_fp/Application/Common/Common/function.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-12-28T14:21:44+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T14:21:46+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=del&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 3 for show(), called in /data/web/zsj_fp/Application/Back/Controller/UserController.class.php on line 96 and defined /data/web/zsj_fp/Application/Common/Common/function.php 第 9 行.
+NOTIC: [8] Undefined variable: url /data/web/zsj_fp/Application/Common/Common/function.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-12-28T14:21:52+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T14:22:13+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-12-28T14:23:08+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-12-28T14:28:26+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-12-28T14:28:29+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Array to string conversion /data/web/zsj_fp/Application/Runtime/Cache/Back/e1b2889cc27c9f5076e6a45eb041aef7.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-12-28T14:29:09+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-12-28T14:33:10+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T14:33:12+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-12-28T14:33:15+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T14:33:17+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T14:34:06+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-12-28T14:34:09+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T14:34:17+08:00 ] 101.226.33.239 /index.php?m=Back&c=User&a=edit&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-12-28T14:34:17+08:00 ] 101.226.33.239 /index.php?m=Back&c=Login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-12-28T14:34:25+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T14:34:27+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-12-28T14:34:30+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-12-28T14:35:38+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-12-28T14:35:42+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T14:37:57+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-12-28T14:37:59+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-28T14:40:32+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : AttValue: &quot; or ' expected /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=$message eq 0 /&gt;&lt;/tpl&gt; /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string():                     ^ /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=$message eq 0 /&gt;&lt;/tpl&gt; /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string():                     ^ /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=$message eq 0 /&gt;&lt;/tpl&gt; /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string():                     ^ /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+ERR: XML标签语法错误 : condition=$message eq 0
+
+[ 2017-12-28T14:40:49+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : AttValue: &quot; or ' expected /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=$message eq '0' /&gt;&lt;/tpl&gt; /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string():                     ^ /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=$message eq '0' /&gt;&lt;/tpl&gt; /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string():                     ^ /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=$message eq '0' /&gt;&lt;/tpl&gt; /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+NOTIC: [2] simplexml_load_string():                     ^ /data/web/zsj_fp/ThinkPHP/Library/Think/Template/TagLib.class.php 第 84 行.
+ERR: XML标签语法错误 : condition=$message eq '0'
+
+[ 2017-12-28T14:42:07+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-12-28T14:42:13+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-12-28T14:42:16+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-12-28T14:43:44+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-12-28T14:43:46+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-12-28T14:44:17+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T14:44:20+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T14:44:25+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T14:44:26+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-12-28T14:44:30+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T14:44:32+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-12-28T14:44:32+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-12-28T14:44:32+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-12-28T14:51:54+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-12-28T14:51:57+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T14:52:09+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-12-28T15:09:52+08:00 ] 218.98.33.30 /index.php?m=back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/IndexController.class.php 第 12 行.
+SQL: SELECT * FROM `zsjkp` WHERE `status` = '1' ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zsjkp` WHERE `status` = '1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: page_show /data/web/zsj_fp/Application/Common/Common/function.php 第 91 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-12-28T15:09:57+08:00 ] 218.98.33.30 /index.php?m=Back&c=zsjtj&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/ZsjtjController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/ZsjtjController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\ZsjywModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/ZsjywModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `zsjyw` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zsjyw` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zsjyw` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000104s ]
+
+[ 2017-12-28T15:09:59+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-12-28T15:10:02+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-12-28T15:10:57+08:00 ] 101.226.33.205 /index.php?m=Back&c=zsjtj&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-12-28T15:10:57+08:00 ] 101.226.33.205 /index.php?m=Back&c=Login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-12-28T15:12:03+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-12-28T15:12:06+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T15:12:28+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T15:12:30+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-12-28T15:12:33+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T15:13:57+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-12-28T15:14:11+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-12-28T15:14:13+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-12-28T15:14:16+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-12-28T15:22:24+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-12-28T15:22:27+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-12-28T15:22:29+08:00 ] 218.98.33.30 /index.php?m=Back&c=User&a=update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: status /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 61 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `adminuser` SET `status`=NULL WHERE ( id = 2 ) [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 3 for show(), called in /data/web/zsj_fp/Application/Back/Controller/UserController.class.php on line 67 and defined /data/web/zsj_fp/Application/Common/Common/function.php 第 9 行.
+NOTIC: [8] Undefined variable: url /data/web/zsj_fp/Application/Common/Common/function.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000110s ]
+
+[ 2017-12-28T15:23:12+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-12-28T15:23:23+08:00 ] 218.98.33.30 /index.php?m=Back&c=zsjly&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/ZsjlyController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/ZsjlyController.class.php 第 12 行.
+SQL: SELECT * FROM `zsjly` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zsjly` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zsjly` WHERE `status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: page_show /data/web/zsj_fp/Application/Common/Common/function.php 第 91 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T15:23:39+08:00 ] 218.98.33.30 /index.php?m=Back&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/UserController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Back\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) /data/web/zsj_fp/Application/Back/Model/UserModel.class.php 第 5 行.
+SQL: SELECT * FROM `adminuser` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `adminuser` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-12-28T15:24:28+08:00 ] 218.98.33.30 /index.php?m=Back&c=zsjly&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: p /data/web/zsj_fp/Application/Back/Controller/ZsjlyController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize /data/web/zsj_fp/Application/Back/Controller/ZsjlyController.class.php 第 12 行.
+SQL: SELECT * FROM `zsjly` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zsjly` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zsjly` WHERE `status` = '0' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: page_show /data/web/zsj_fp/Application/Common/Common/function.php 第 91 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>发票申请平台</title>
+		<link rel="stylesheet" href="__PUBLIC__/zsj_fp/css/index.css" />
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<style type="text/css">
+			.hwh-page-info a{color: #CCC;}
+			.hwh-page-info a em{font-style: normal;margin: 0 2px;}
+		</style>
+    </head>
+	<body>
+		<div class="container1">
+			<!--top-->
+			<div class="top">发票申请平台</div>
+			<!--bottom-->
+			<div class="bottom">
+				<div class="bot_in pad">
+					<include file="Public:lefter" />
+					<div class="box_inr l">
+						<form class="form3">
+							<table border="1" width="912px">
+								<tr>
+									<th style="padding-left: 32px;">开票单位</th>
+									<th style="padding-left: 48px;">收件人</th>
+									<th style="padding-left: 57px;">手机</th>
+									<th style="padding-left: 23px;">业务类型</th>
+									<th width="165px" style="padding-left: 24px;">申请时间</th>
+									<th width="165px" style="padding-left: 41px;">状态</th>
+									<th width="165px" style="padding-left: 25px;">快递单号</th>
+									<th width="165px" style="padding-left: 36px;">详情</th>
+								</tr>
+								<volist name="liss" id="vo">
+									<tr>
+										<th style="color:#00030b;">{$vo.company1}</th>
+										<th style="color:#00030b;">{$vo['user_id'],$vo['info_id']|user}</th>
+										<th style="color:#00030b;">{$vo['user_id'],$vo['info_id']|phone}</th>
+										<th style="color:#00030b;">{$vo.kpob|ywtype}</th>
+										<th style="color:#00030b;">{$vo.addtime|substr=0,19}</th>
+										<th style="color:#00030b;">{$vo.status|status}</th>
+										<th style="color:#00030b;">
+											<if condition="$vo.action heq null "> 待审核 <else /> <a id="{$vo.action}" class="kd" href="javascript:void(0)">{$vo.action}</a> </if>
+										</th>
+										<th hidden>{$vo['user_id'],$vo['info_id']|address}</th>
+										<th hidden>{$vo.shao}</th>
+										<th hidden>{$vo.huktime}</th>
+										<th hidden>{$vo.mony}</th>
+										<th hidden>{$vo.way|ways}</th>
+										<th style="color:#00030b;"><a class="ckxq" href="javascript:void(0);">查看详情</a></th>
+									</tr>
+								</volist>
+							</table>
+						   
+						</form>
+					</div>
+						<center>
+							<div class="result page">{$page_show}</div>
+						</center>
+				</div>
+			</div>
+		</div>
+		<script src="__PUBLIC__/zsj_fp/js/jquery.js"></script>
+		<script src="__PUBLIC__/layer/layer.js"></script>
+		<script src="__PUBLIC__/chajian/delog.js"></script>
+		<script src="__PUBLIC__/zsj_fp/js/home_fpcx.js"></script>
+	</body>
+</html>
