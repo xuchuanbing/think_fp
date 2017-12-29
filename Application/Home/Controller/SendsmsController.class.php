@@ -83,7 +83,7 @@ class SendsmsController extends Controller
 			return false;
 		}
 
-		$post_data = "account=cf_bjleehao&password=bjleehao&mobile=".$mobile."&content=".rawurlencode("您的验证码是：".$mobile_code."。请不要把验证码泄露给其他人。如非本人操作，可不用理会！");
+		$post_data = "account=".C('ACCOUNT')."&password=".C('PASSWORD')."&mobile=".$mobile."&content=".rawurlencode("您的验证码是：".$mobile_code."。请不要把验证码泄露给其他人。如非本人操作，可不用理会！");
 
 		//密码可以使用明文密码或使用32位MD5加密
 		$gets =  xml_to_array(Post($post_data, $target));
